@@ -238,6 +238,7 @@ void HttpMonitor() {
     }
 
     closesocket(listener);
+    
     WSACleanup();
 }
 
